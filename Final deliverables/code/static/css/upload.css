@@ -1,0 +1,142 @@
+.file-upload {
+    background-image: url(data:image/jpeg;base64,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);
+    position: absolute;
+    background-color: #ffffff;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    top: 20%;
+    left: 35%;
+  }
+  
+  .file-upload-btn {
+    width: 100%;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    background: #1FB264;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #15824B;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .file-upload-btn:hover {
+    background: #1AA059;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+  }
+  
+  .file-upload-btn:active {
+    border: 0;
+    transition: all .2s ease;
+  }
+  
+  .file-upload-content {
+    display: none;
+    text-align: center;
+  }
+  
+  .file-upload-input {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .image-upload-wrap {
+    margin-top: 20px;
+    border: 4px dashed #03fff2;
+    position: relative;
+  }
+  
+  .image-dropping,
+  .image-upload-wrap:hover {
+    background-color: #03fff2;
+    border: 4px dashed #ffffff;
+  }
+  
+  .image-title-wrap {
+    padding: 0 15px 15px 15px;
+    color: #222;
+  }
+  
+  .drag-text {
+    text-align: center;
+  }
+  
+  .drag-text h3 {
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 60px 0;
+  }
+  
+  .file-upload-image {
+    max-height: 200px;
+    max-width: 200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .remove-image {
+    width: 200px;
+    margin: 0;
+    color: #fff;
+    background: #cd4535;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #b02818;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .remove-image:hover {
+    background: #c13b2a;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+  }
+  
+  .remove-image:active {
+    border: 0;
+    transition: all .2s ease;
+  }
+    
+  .send-image {
+    width: 200px;
+    margin: 0;
+    color: #fff;
+    background: #a0c12a;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #728f09;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .send-image:hover {
+    background: #000000;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+  }
+  
+  .send-image:active {
+    border: 0;
+    transition: all .2s ease;
+  }
