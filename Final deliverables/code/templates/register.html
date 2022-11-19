@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>We Nutri Pulse Registration</title>
+  <link rel="icon" type="image/png" href="../static/images/icons/logo.ico"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,700,300'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+<link rel="stylesheet" href="../static/css/style.css">
+
+</head>
+<body>
+  <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "a09d8a78-e1f6-41b8-b072-5d26fe0b8f01", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "37c122b5-72e1-44df-a5fb-463376d0c8a1", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+<!-- partial:index.partial.html -->
+<div class="signup__container">
+  <div class="container__child signup__thumbnail">
+    <div class="thumbnail__logo">
+      <img src="../static/images/logo.png" alt="logo" style="height: 50px; width:50px;"/>
+      <h1 class="logo__text">Nutri Pulse</h1>
+    </div>
+    <div class="thumbnail__content text-center">
+      <h1 class="heading--primary">Welcome to NP</h1>
+      <h2 class="heading--secondary">Are you ready to join with our Free Nutri ? <!DOCTYPE html></h2>
+    </div>
+    <div class="signup__overlay">
+      <img class="regPic" src="../static/images/registerImage2.png" alt="logo" />
+    </div>
+  </div>
+  <div class="container__child signup__form">
+    <form  action="{{ url_for('register') }}" method="POST">
+      <div class="form-group">
+        <label for="username">Name {{ msg }} </label>
+        <input class="form-control" type="text" name="username" id="username" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input class="form-control" type="text" name="email" id="email" required />
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input class="form-control" type="password" name="password" id="password"  required />
+      </div>
+      <div class="form-group">
+        <label for="passwordRepeat">Repeat Password</label>
+        <input class="form-control" type="password" name="passwordRepeat" id="passwordRepeat"required />
+      </div>
+      <div class="m-t-lg">
+        <ul class="list-inline">
+          <li>
+            <input class="btn btn--form" type="submit" value="Register" />
+          </li>
+          <li>
+            <a class="signup__link" href="{{ url_for('login') }}">I am already a member</a>
+          </li>
+        </ul>
+      </div>
+    </form>  
+  </div>
+</div>
+<!-- partial -->
+  
+</body>
+</html>

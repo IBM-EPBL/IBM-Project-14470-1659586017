@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <title>House</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+      integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+      crossorigin="anonymous"
+    />
+    {{ jsonfile }}
+    
+  </head>
+  <body style="background-color: BLACK;">
+    <div class="container" style="font-size: x-large; color: aliceblue;">
+      <table>
+        <thead>
+          <tr>
+            {% for col in jsonfile %}
+            <th> {{col}}</th>
+            {% endfor %}
+          </tr>
+        </thead>
+      </table>
+    <p class="mytext"></p>
+    
+    {% for i in data %}
+    {{i}} {% for j in val%}
+    {{j}}
+    <br>
+    {{ data[0][1[[1][0]][[1][1]]] }}
+    {% endfor %}<br>
+    {% endfor %}
+  </div>
+  </body>
+</html>
